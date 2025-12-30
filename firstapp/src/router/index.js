@@ -7,12 +7,7 @@ const router = createRouter({
             name: "main", 
             component: () => import("../components/Main.vue"),
         }, 
-        { 
-            path: "/home", 
-            name: "home", 
-            component: () => import("../components/Home.vue"),
-            props:true,
-        },
+    
     ], 
 }); 
 export default router;
