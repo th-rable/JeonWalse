@@ -1,27 +1,21 @@
 <template>
-  <div>
-    <v-app-bar
-      scroll-behavior="elevate inverted"
-      scroll-threshold="1000"
-      color="black"
-    >
-      <v-app-bar-title>전세 월세 중 뭐가 이득일까?</v-app-bar-title>
-      
-    </v-app-bar>
-    
-  </div>
+  <v-app-bar app color="white" light elevation="1">
+    <p class="mr-3">  </p>
+    <img src="/icon.png" alt="App Icon" height="30" class="mr-2" />
+    <div class="text-h6 font-weight-bold">전세, 월세 뭐가 더 이득일까?</div>
+    <v-spacer></v-spacer>
+    <!-- Future buttons can go here -->
+  </v-app-bar>
 </template>
 
 <script>
 export default {
   name: 'TheHeader',
-  data() {
-    return {
-      
-    }
-  },
-  computed: {
-    
-  },
 }
 </script>
+
+<style scoped>
+.v-toolbar__title {
+  font-size: 1.25rem;
+}
+</style>

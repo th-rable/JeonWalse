@@ -14,8 +14,8 @@ module.exports = {
     },
     proxy: {
       '/api':{
-        //target: 'https://rable.duckdns.org/'
-        target: 'https://solid-space-happiness-6wjvpj6qp6jhr6qp-8000.app.github.dev/'
+        //target: ''
+        target: ''
       }
     }
   },
