@@ -12,11 +12,6 @@ module.exports = {
         port: process.env.GITPOD_WORKSPACE_ID ? 443 : undefined,
       },
     },
-    proxy: {
-      '/api':{
-        //target: ''
-        target: ''
-      }
-    }
+    
   },
 };
